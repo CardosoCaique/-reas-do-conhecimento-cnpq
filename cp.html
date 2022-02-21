@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <style media="screen">
+            .autores {
+                margin-top: 2%;
+            }
+        </style>
+        <script type="text/javascript">
+            sessionStorage.clear();
+            
+            function newElement()
+            {
+                var main = document.getElementById("autor-div-main");
+                var divRow = document.createElement('div');
+                var divCol = document.createElement('div');
+                var label = document.createElement('label');
+                var authorInput = document.createElement('input');
+
+                if(!sessionStorage.getItem('num')) {
+                    sessionStorage.setItem('num', 2);
+                } else {
+                    count = parseInt(sessionStorage.getItem('num')) + 1;
+                    sessionStorage.setItem('num', count);
+                }
+
+                divRow.setAttribute('class', 'form-row autores');
+                divCol.setAttribute('class', 'col-md-4');
+
+                authorInput.setAttribute('type', 'text');
+                authorInput.setAttribute('name', 'co-autor-email'+sessionStorage.getItem('num'));
+                authorInput.setAttribute('class', 'form-control');
+
+                label.innerHTML = "E-mail do " + sessionStorage.getItem('num') + "º autor";
+
+                divCol.appendChild(label);
+                divCol.appendChild(authorInput);
+                divRow.appendChild(divCol);
+                main.appendChild(divRow);
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <br>
+            <div id="autor-div-main">
+                <div class="form-row autores">
+                    <div class="col-md-4">
+                        <label for="">E-mail do autor</label>
+                        <input type="text" class="form-control" name="autor">
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="form-row">
+                <div class="col-md-4">
+                    <button type="button" name="button" class="btn btn-success w-100" onclick="newElement()">+</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
