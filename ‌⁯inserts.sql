@@ -1,0 +1,82 @@
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'Ciência da Computação');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'Matemática');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'Probabilidade e Estatística');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'Astronomia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'Física');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'Química');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'GeoCiências');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '1', 'Oceanografia');
+
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Biologia Geral');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Genética');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Botânica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Zoologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Ecologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Morfologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Fisiologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Bioquímica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Biofísica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Farmacologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Imunologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Microbiologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '2', 'Parasitologia');
+
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Civil');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia de Minas');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia de Materiais e Metalúrgica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Elétrica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Mecânica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Química');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Sanitária');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia de Produção');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Nuclear');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia de Transportes');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Naval e Oceânica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Aeroespacial');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '3', 'Engenharia Biomédica');
+
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Medicina');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Odontologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Farmácia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Enfermagem');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Nutrição');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Saúde Coletiva');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Fonoaudiologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Fisioterapia e Terapia Ocupacional');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '4', 'Educação Física');
+
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '5', 'Agronomia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '5', 'Recursos Florestais e Engenharia Florestal');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '5', 'Engenharia Agrícola');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '5', 'Zootecnia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '5', 'Medicina Veterinária');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '5', 'Recursos Pesqueiros e Engenharia de Pesca');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '5', 'Ciência e Tecnologia de Alimentos');
+
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Direito');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Administração');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Economia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Arquitetura e Urbanismo');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Planejamento Urbano e Regional');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Demografia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Ciência da Informação');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Museologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Comunicação');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Serviço Social');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Economia Doméstica');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '6', 'Desenho Industrial');
+
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Filosofia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Sociologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Antropologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Arqueologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'História');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Geografia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Psicologia');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Educação');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Ciência Política');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '7', 'Teologia');
+
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '8', 'Linguística');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '8', 'Letras');
+INSERT INTO `subareas` (`id`, `area_id`, `titulo`) VALUES (NULL, '8', 'Artes');
